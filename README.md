@@ -22,7 +22,6 @@ CIFAR-10, fixed stratified 12,000 train / disjoint 3,000 validation images from 
 - `outputs/results.csv`, `outputs/results_table.csv`: metrics for every run
 - `outputs/*.png`: curves, ablation plot, confusion matrix
 - `outputs/lr_sanity.csv`, `outputs/winner.txt`, `outputs/test_result.json`
-- `report.pdf`: written report
 
 ## Main results (validation accuracy, single run unless noted)
 | Model | Val acc |
