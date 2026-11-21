@@ -1,0 +1,5 @@
+outputs/ckpt/
+*.weights.h5
+__pycache__/
+.ipynb_checkpoints/
+*.zip
