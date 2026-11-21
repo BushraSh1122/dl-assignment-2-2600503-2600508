@@ -11,8 +11,6 @@ Framework: TensorFlow/Keras. Platform: Google Colab, NVIDIA T4 (see `outputs/nvi
 
 Seed 42 (A0 to A3 also seed 123).
 
-Note: the Colab session was reset after the run, so per-epoch history files, Keras summary files and checkpoints were lost. The CSV/JSON files in `outputs/` were rebuilt from the values printed in the notebook (see `outputs/NOTE.txt`); the notebook's saved outputs are the original record. Data split indices: `outputs/data_indices.json`. Environment: `outputs/environment.txt`, `requirements.txt`.
-
 ## Protocol
 CIFAR-10, fixed stratified 12,000 train / disjoint 3,000 validation images from the original training set; the 10,000 test images are used once for the preselected final model. 96x96 for the architecture benchmark and A4, 64x64 for A0 to A3 (resized inside tf.data). Adam 3e-4, sparse CE with from_logits=True, mixed_float16 with float32 logits, best-validation-accuracy checkpoint. Four architectures: 5 epochs, batch 32. No failed or OOM runs occurred.
 
