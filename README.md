@@ -35,5 +35,3 @@ CIFAR-10, fixed stratified 12,000 train / disjoint 3,000 validation images from 
 
 Final model (A4-T, chosen by validation accuracy before test evaluation): test accuracy 0.8566, macro-F1 0.8566.
 Single-seed architecture rankings are provisional. See the report for caveats.
-
-Commit hash used for the report: `<paste output of git rev-parse HEAD>`
